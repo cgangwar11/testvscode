@@ -1,0 +1,285 @@
+{
+  "took" : 24,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 10,
+    "successful" : 10,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 62683,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "system",
+      "_id" : "AVQotcEgvdOhy-dQFSIr",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T09:31:19.533Z",
+        "beat" : {
+          "hostname" : "chandan-HP-15-Notebook-PC",
+          "name" : "chandan-HP-15-Notebook-PC"
+        },
+        "count" : 1,
+        "cpu" : {
+          "user" : 516745,
+          "user_p" : 0.1665,
+          "nice" : 17307,
+          "system" : 147288,
+          "system_p" : 0.0456,
+          "idle" : 2768011,
+          "iowait" : 66822,
+          "irq" : 5,
+          "softirq" : 5128,
+          "steal" : 0
+        },
+        "load" : {
+          "load1" : 1.15,
+          "load5" : 1.11,
+          "load15" : 1.15
+        },
+        "mem" : {
+          "total" : 4027637760,
+          "used" : 3809853440,
+          "free" : 217784320,
+          "used_p" : 0.95,
+          "actual_used" : 2373124096,
+          "actual_free" : 1654513664,
+          "actual_used_p" : 0.59
+        },
+        "swap" : {
+          "total" : 4176474112,
+          "used" : 36933632,
+          "free" : 4139540480,
+          "used_p" : 0.01
+        },
+        "type" : "system"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "filesystem",
+      "_id" : "AVQotcEgvdOhy-dQFSIz",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T09:31:19.533Z",
+        "beat" : {
+          "hostname" : "chandan-HP-15-Notebook-PC",
+          "name" : "chandan-HP-15-Notebook-PC"
+        },
+        "count" : 1,
+        "fs" : {
+          "device_name" : "none",
+          "total" : 0,
+          "used" : 0,
+          "used_p" : 0,
+          "free" : 0,
+          "avail" : 0,
+          "files" : 0,
+          "free_files" : 0,
+          "mount_point" : "/sys/firmware/efi/efivars"
+        },
+        "type" : "filesystem"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "filesystem",
+      "_id" : "AVQotcEgvdOhy-dQFSI2",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T09:31:19.533Z",
+        "beat" : {
+          "hostname" : "chandan-HP-15-Notebook-PC",
+          "name" : "chandan-HP-15-Notebook-PC"
+        },
+        "count" : 1,
+        "fs" : {
+          "device_name" : "tmpfs",
+          "total" : 402763776,
+          "used" : 1380352,
+          "used_p" : 0,
+          "free" : 401383424,
+          "avail" : 401383424,
+          "files" : 491655,
+          "free_files" : 491017,
+          "mount_point" : "/run"
+        },
+        "type" : "filesystem"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "filesystem",
+      "_id" : "AVQotcEgvdOhy-dQFSI8",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T09:31:19.533Z",
+        "beat" : {
+          "hostname" : "chandan-HP-15-Notebook-PC",
+          "name" : "chandan-HP-15-Notebook-PC"
+        },
+        "count" : 1,
+        "fs" : {
+          "device_name" : "binfmt_misc",
+          "total" : 0,
+          "used" : 0,
+          "used_p" : 0,
+          "free" : 0,
+          "avail" : 0,
+          "files" : 0,
+          "free_files" : 0,
+          "mount_point" : "/proc/sys/fs/binfmt_misc"
+        },
+        "type" : "filesystem"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "filesystem",
+      "_id" : "AVQotcEgvdOhy-dQFSI-",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T09:31:19.533Z",
+        "beat" : {
+          "hostname" : "chandan-HP-15-Notebook-PC",
+          "name" : "chandan-HP-15-Notebook-PC"
+        },
+        "count" : 1,
+        "fs" : {
+          "device_name" : "gvfsd-fuse",
+          "total" : 0,
+          "used" : 0,
+          "used_p" : 0,
+          "free" : 0,
+          "avail" : 0,
+          "files" : 0,
+          "free_files" : 0,
+          "mount_point" : "/run/user/1000/gvfs"
+        },
+        "type" : "filesystem"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "filesystem",
+      "_id" : "AVQotg2kvdOhy-dQFSJZ",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T09:31:39.535Z",
+        "beat" : {
+          "hostname" : "chandan-HP-15-Notebook-PC",
+          "name" : "chandan-HP-15-Notebook-PC"
+        },
+        "count" : 1,
+        "fs" : {
+          "device_name" : "none",
+          "total" : 4096,
+          "used" : 0,
+          "used_p" : 0,
+          "free" : 4096,
+          "avail" : 4096,
+          "files" : 491655,
+          "free_files" : 491653,
+          "mount_point" : "/sys/fs/cgroup"
+        },
+        "type" : "filesystem"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "filesystem",
+      "_id" : "AVQotg2kvdOhy-dQFSJg",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T09:31:39.536Z",
+        "beat" : {
+          "hostname" : "chandan-HP-15-Notebook-PC",
+          "name" : "chandan-HP-15-Notebook-PC"
+        },
+        "count" : 1,
+        "fs" : {
+          "device_name" : "tmpfs",
+          "total" : 402763776,
+          "used" : 1380352,
+          "used_p" : 0,
+          "free" : 401383424,
+          "avail" : 401383424,
+          "files" : 491655,
+          "free_files" : 491017,
+          "mount_point" : "/run"
+        },
+        "type" : "filesystem"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "filesystem",
+      "_id" : "AVQotg2kvdOhy-dQFSJh",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T09:31:39.536Z",
+        "beat" : {
+          "hostname" : "chandan-HP-15-Notebook-PC",
+          "name" : "chandan-HP-15-Notebook-PC"
+        },
+        "count" : 1,
+        "fs" : {
+          "device_name" : "none",
+          "total" : 5242880,
+          "used" : 0,
+          "used_p" : 0,
+          "free" : 5242880,
+          "avail" : 5242880,
+          "files" : 491655,
+          "free_files" : 491652,
+          "mount_point" : "/run/lock"
+        },
+        "type" : "filesystem"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "filesystem",
+      "_id" : "AVQotg2kvdOhy-dQFSJi",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T09:31:39.536Z",
+        "beat" : {
+          "hostname" : "chandan-HP-15-Notebook-PC",
+          "name" : "chandan-HP-15-Notebook-PC"
+        },
+        "count" : 1,
+        "fs" : {
+          "device_name" : "none",
+          "total" : 2013818880,
+          "used" : 90849280,
+          "used_p" : 0.05,
+          "free" : 1922969600,
+          "avail" : 1922969600,
+          "files" : 491655,
+          "free_files" : 491561,
+          "mount_point" : "/run/shm"
+        },
+        "type" : "filesystem"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "filesystem",
+      "_id" : "AVQotg2lvdOhy-dQFSJl",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T09:31:39.536Z",
+        "beat" : {
+          "hostname" : "chandan-HP-15-Notebook-PC",
+          "name" : "chandan-HP-15-Notebook-PC"
+        },
+        "count" : 1,
+        "fs" : {
+          "device_name" : "/dev/sda3",
+          "total" : 100663296,
+          "used" : 36923392,
+          "used_p" : 0.37,
+          "free" : 63739904,
+          "avail" : 63739904,
+          "files" : 0,
+          "free_files" : 0,
+          "mount_point" : "/boot/efi"
+        },
+        "type" : "filesystem"
+      }
+    } ]
+  }
+}
